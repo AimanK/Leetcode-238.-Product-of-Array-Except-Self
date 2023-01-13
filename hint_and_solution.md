@@ -1,6 +1,6 @@
 HINT:
 - Create 3 int[] arrays, one for left, right, and answer, respectively.
-- The technique to solve this problem involves calulating all the products to the in one direction, for example, for the left array, the products to the left of the index of left[i] = are calculated by nums[i-1] * left[i-1],
+- The technique to solve this problem involves calulating all the products in one direction, for example, for the left array, the products to the left of the index of left[i] = are calculated and stored by nums[i-1] * left[i-1],
 apply this principle to the right array as well, but in the opposite direction.
 - Lastly, the answer array is filled by calculating the products as answer[i] = left[i] * right[i];
  
